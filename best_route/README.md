@@ -32,9 +32,10 @@ Each resturant will have only one order from one user
 Approach we have taken here is kind of greedy where in we start with agent look for smallest time to be taken for first
 and then smallest time to be taken for nearest resturant or customers 
 
-I have created one service layer For the sake of simplicity I have kept all service class in single file we can easily seprate them out going forward
-
-Also we have also taken consideration of time taken by resturant to prepare food and meanwhile when agent drives to that location
-
+Also we have taken consideration of time taken by resturant to prepare food and meanwhile when agent drives to that location
 The final print value shows what route can agent take for its optimized journey
+
+I have created one service layer For the sake of simplicity I have kept all service class in single file we can easily seprate them out going forward
+I have created one repository layer for mimicing DB
+If in future we have to introdcue DB we have to just change the implementation within repository layer
 
